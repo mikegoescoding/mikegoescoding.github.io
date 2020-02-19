@@ -1,3 +1,3 @@
-# Michael Di Dia React Portfolio Application
+# Michael Di Dia Github portfolio
 
 > 2020. Michael Di Dia.
