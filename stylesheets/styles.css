@@ -6,6 +6,10 @@ body {
   font-weight:400;
 }
 
+ul > i {
+  color: aquamarine !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
@@ -59,6 +63,10 @@ a:hover small {
   margin:0 auto;
 }
 
+.wrapper > header {
+  text-align: center;
+}
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -100,7 +108,11 @@ th {
 }
 
 img {
-  max-width:100%;
+  max-width:75%;
+}
+
+#avatar {
+  border-radius: 50%;
 }
 
 header {
@@ -114,7 +126,7 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  background: rgb(80, 80, 80);
   border-radius:5px;
   border:1px solid #e0e0e0;
   width:270px;
@@ -137,7 +149,7 @@ header li:last-child a {
 
 header ul a {
   line-height:1;
-  font-size:11px;
+  font-size:10px;
   color:#999;
   display:block;
   text-align:center;
